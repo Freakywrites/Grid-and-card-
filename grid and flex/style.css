@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    background-color:  hsl(0, 0%, 95%);
+    font-weight: 400;
+}
+
+
+
+
+.box-container{
+  display:flex;
+  margin:0 auto;
+ width:800px;
+  height:100vh;
+  align-items: center;
+  justify-content: center;
+} 
+
+.box1{
+    background-color: hsl(31, 77%, 52%);
+    height:53%;
+    padding:30px 20px;
+}
+
+
+.box2{
+    background-color: hsl(184, 100%, 22%);
+    height:53%;
+    padding:30px 20px;
+}
+
+.box3{
+    background-color:hsl(179, 100%, 13%);
+    height:53%;
+    padding:30px 20px;
+
+
+
+}
+
+img{
+    padding:5px;
+
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+    padding:19px 4px;
+}
+
+p{
+ color:hsla(0, 0%, 100%, 0.75)
+}
+
+.box1-btn{
+    margin-top:35px;
+    color:hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 16px;
+    border-style: hidden;
+    padding: 5px 15px;
+    text-align: center;
+    
+    
+    
+}
+
+.box2-btn,.box3-btn{
+    margin-top:35px;
+    color:hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 16px;
+    border-style: hidden;
+    padding: 5px 15px;
+    text-align: center;
+
+}
+
+.box1-btn a{
+    color:hsl(31, 77%, 52%);
+    text-decoration: none;
+
+
+}
+
+.box2-btn,.box3-btn, a{
+    color:hsl(179, 100%, 13%);
+    text-decoration: none;
+}
+
+ button:hover{
+     background-color: transparent;
+     border-style: solid;
+     border-color: white;
+ }
+
+ a:hover{
+     color:white;
+ }
+
+ li a{
+    color:black;
+    background-color: crimson;
+    border-style: solid;
+    border-color: black;
+    font-weight: 800;
+    font-size: x-large;
+ }
+
+@media screen and (max-width:1440px) {
+    
+.box-container{
+    display:flex;
+    margin:0 auto;
+   width:800px;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+  } 
+     
+}
+
+@media screen and (max-width:375px) {
+
+    .box-container{
+        display:flex;
+        flex-direction: column;
+        margin:0 auto;
+       width:300px;
+        height:110%;
+        align-items: center;
+        justify-content: center;
+      } 
+    
+}
+
+
+
+
+
